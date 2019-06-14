@@ -5,8 +5,7 @@
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor",
-      "signature": "constructor"
+      "type": "constructor"
     },
     {
       "anonymous": false,
@@ -28,8 +27,7 @@
         }
       ],
       "name": "NewOwner",
-      "type": "event",
-      "signature": "0xce0457fe73731f824cc272376169235128c118b49d344817417c6d108d155e82"
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -46,8 +44,7 @@
         }
       ],
       "name": "Transfer",
-      "type": "event",
-      "signature": "0xd4735d920b0f87494915f556dd9b54c8f309026070caea5c737245152564d266"
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -64,8 +61,7 @@
         }
       ],
       "name": "NewResolver",
-      "type": "event",
-      "signature": "0x335721b01866dc23fbee8b6b2c7b1e14d6f05c28cd35a2c934239f94095602a0"
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -82,8 +78,7 @@
         }
       ],
       "name": "NewTTL",
-      "type": "event",
-      "signature": "0x1d4f9bbfc9cab89d66e1a1562f2233ccbf1308cb4f63de2ead5787adddb8fa68"
+      "type": "event"
     },
     {
       "constant": false,
@@ -101,8 +96,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x5b0fc9c3"
+      "type": "function"
     },
     {
       "constant": false,
@@ -124,8 +118,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x06ab5923"
+      "type": "function"
     },
     {
       "constant": false,
@@ -143,8 +136,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x1896f70a"
+      "type": "function"
     },
     {
       "constant": false,
@@ -162,8 +154,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x14ab9038"
+      "type": "function"
     },
     {
       "constant": true,
@@ -182,8 +173,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x02571be3"
+      "type": "function"
     },
     {
       "constant": true,
@@ -202,8 +192,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x0178b8bf"
+      "type": "function"
     },
     {
       "constant": true,
@@ -222,8 +211,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x16a25cbd"
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"resolver\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"node\",\"type\":\"bytes32\"},{\"name\":\"label\",\"type\":\"bytes32\"},{\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"setSubnodeOwner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"node\",\"type\":\"bytes32\"},{\"name\":\"ttl\",\"type\":\"uint64\"}],\"name\":\"setTTL\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"node\",\"type\":\"bytes32\"}],\"name\":\"ttl\",\"outputs\":[{\"name\":\"\",\"type\":\"uint64\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"node\",\"type\":\"bytes32\"},{\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"setResolver\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"node\",\"type\":\"bytes32\"},{\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"setOwner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"name\":\"label\",\"type\":\"bytes32\"},{\"indexed\":false,\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"NewOwner\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"NewResolver\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":false,\"name\":\"ttl\",\"type\":\"uint64\"}],\"name\":\"NewTTL\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"constructor\":{\"details\":\"Constructs a new ENS registrar.\"},\"owner(bytes32)\":{\"details\":\"Returns the address that owns the specified node.\",\"params\":{\"node\":\"The specified node.\"},\"return\":\"address of the owner.\"},\"resolver(bytes32)\":{\"details\":\"Returns the address of the resolver for the specified node.\",\"params\":{\"node\":\"The specified node.\"},\"return\":\"address of the resolver.\"},\"setOwner(bytes32,address)\":{\"details\":\"Transfers ownership of a node to a new address. May only be called by the current owner of the node.\",\"params\":{\"node\":\"The node to transfer ownership of.\",\"owner\":\"The address of the new owner.\"}},\"setResolver(bytes32,address)\":{\"details\":\"Sets the resolver address for the specified node.\",\"params\":{\"node\":\"The node to update.\",\"resolver\":\"The address of the resolver.\"}},\"setSubnodeOwner(bytes32,bytes32,address)\":{\"details\":\"Transfers ownership of a subnode keccak256(node, label) to a new address. May only be called by the owner of the parent node.\",\"params\":{\"label\":\"The hash of the label specifying the subnode.\",\"node\":\"The parent node.\",\"owner\":\"The address of the new owner.\"}},\"setTTL(bytes32,uint64)\":{\"details\":\"Sets the TTL for the specified node.\",\"params\":{\"node\":\"The node to update.\",\"ttl\":\"The TTL in seconds.\"}},\"ttl(bytes32)\":{\"details\":\"Returns the TTL of a node, and any records associated with it.\",\"params\":{\"node\":\"The specified node.\"},\"return\":\"ttl of the node.\"}}},\"userdoc\":{\"methods\":{},\"notice\":\"The ENS registry contract.\"}},\"settings\":{\"compilationTarget\":{\"/home/jonah/ens/contracts/ENSRegistry.sol\":\"ENSRegistry\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jonah/ens/contracts/ENS.sol\":{\"keccak256\":\"0xe688db01c0b974f8ff8565557f7fe81aa1f209c1497ec1e74536241f4cc11f08\",\"urls\":[\"bzzr://04aa083550728a1da54d9acf874f4fca77cc3afef81c57f1ec19be78af05019a\"]},\"/home/jonah/ens/contracts/ENSRegistry.sol\":{\"keccak256\":\"0x3e71e2f5f665a4e18d8624f012ec82e9f5e93e567847da2f62cc1825a001a984\",\"urls\":[\"bzzr://49400c887b9632c88f4d5b69b3a03c57bed16dcca6c1ec44889c83abb276df54\"]}},\"version\":1}",
@@ -4969,12 +4957,12 @@
         }
       },
       "links": {},
-      "address": "0x76ce58B74CE51AFDEA5874299db85BC1bF0769DE",
-      "transactionHash": "0x3b8aa02bddaeca5c0c0c9ee52bd520b316f83c355d0f7b554aa5d1976cbbf214"
+      "address": "0x33FeA8c28027BbbBd4B714211e14d823086d2B57",
+      "transactionHash": "0xb2bdfc9e3b042ab4e4689ae9ccc351e7b1159a419adbbf78acee268b9763fa2b"
     }
   },
-  "schemaVersion": "3.0.6",
-  "updatedAt": "2019-05-06T00:10:28.642Z",
+  "schemaVersion": "3.0.9",
+  "updatedAt": "2019-06-14T21:38:29.243Z",
   "devdoc": {
     "methods": {
       "constructor": {

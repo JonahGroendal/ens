@@ -4957,12 +4957,12 @@
         }
       },
       "links": {},
-      "address": "0x7b873a6Ff2a30aea34d1f926681DD6AaB124E804",
-      "transactionHash": "0x898ce3f67a5427488b886e2f64023c9ee265534c2eb3aad460d75883fb44214b"
+      "address": "0x47bf74d976fDB571c0459B50b2aA031a4419cEF0",
+      "transactionHash": "0xe6954d75ebd583c1843dab977adfb7448216e0d950804164a683da2cd9a3196f"
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-18T04:40:32.342Z",
+  "updatedAt": "2019-07-13T22:09:37.371Z",
   "devdoc": {
     "methods": {
       "constructor": {

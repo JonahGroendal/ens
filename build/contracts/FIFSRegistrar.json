@@ -2500,12 +2500,12 @@
     "42": {
       "events": {},
       "links": {},
-      "address": "0xAaf6A7812255549003f5563301D0ef33858B1049",
-      "transactionHash": "0x7141450df3c8e1917d4dba0ec91a6bef2fadbb6395d500e1b6238fbf9030fb3a"
+      "address": "0xFEdf47d1cBE92Cdea15Ef581C6A860Bcfe4e667F",
+      "transactionHash": "0x738549c0133ec3d03e1607a4e5995048e0e4fa7019734ced564b13168a582aa9"
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-18T04:40:32.353Z",
+  "updatedAt": "2019-07-13T22:09:37.384Z",
   "devdoc": {
     "methods": {
       "constructor": {

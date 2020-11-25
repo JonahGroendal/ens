@@ -3,6 +3,8 @@
   "version": "0.4.4",
   "description": "Implementations for registrars and local resolvers for the Ethereum Name Service",
   "scripts": {
+    "compile": "truffle compile",
+    "migrate-kovan": "truffle migrate --network kovan",
     "test": "truffle test",
     "lint": "solium --dir ./contracts",
     "prepublishOnly": "truffle compile && truffle networks --clean",

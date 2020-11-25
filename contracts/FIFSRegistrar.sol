@@ -1,7 +1,5 @@
 pragma solidity ^0.5.0;
 
-// Do not use in production. For testing only
-
 import "./ENS.sol";
 
 /**
@@ -10,11 +8,10 @@ import "./ENS.sol";
 contract FIFSRegistrar {
     ENS ens;
     bytes32 rootNode;
-    mapping (bytes32 => address) otherOwners;
 
     modifier only_owner(bytes32 label) {
         address currentOwner = ens.owner(keccak256(abi.encodePacked(rootNode, label)));
-        require(currentOwner == address(0x0) || currentOwner == msg.sender || otherOwners[label] == msg.sender);
+        require(currentOwner == address(0x0) || currentOwner == msg.sender);
         _;
     }
 
@@ -34,7 +31,6 @@ contract FIFSRegistrar {
      * @param owner The address of the new owner.
      */
     function register(bytes32 label, address owner) public only_owner(label) {
-        otherOwners[label] = msg.sender;
         ens.setSubnodeOwner(rootNode, label, owner);
     }
 }

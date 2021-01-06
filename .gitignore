@@ -5,6 +5,3 @@ _templates
 keys.json
 
 .DS_Store
-
-# Compiled contract ABIs and binaries
-build/contracts/*
